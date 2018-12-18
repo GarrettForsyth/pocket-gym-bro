@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">PocketGymBro</string>
+    <string name="search_hint">Search</string>
+    <string name="exercise_image">Exercise Image</string>
+    <string name="no_results">No results found.</string>
+    <string name="internet_unavailable">Internet unavailable.</string>
+    <string name="retry">Retry</string>
+    <string name="unknown_network_error">A network error has occurred.</string>
+
 </resources>

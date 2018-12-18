@@ -1,0 +1,164 @@
+{
+  "suggestions": [
+    {
+      "data": {
+        "category": "Abs",
+        "image": null,
+        "name": "Overhand Cable Curl",
+        "id": 197,
+        "image_thumbnail": null
+      },
+      "value": "Overhand Cable Curl"
+    },
+    {
+      "data": {
+        "category": "Arms",
+        "image": "https://wger.de/media/exercise-images/74/Bicep-curls-1.png",
+        "name": "Biceps Curls With Barbell",
+        "id": 74,
+        "image_thumbnail": "https://wger.de/media/exercise-images/74/Bicep-curls-1.png.30x30_q85_crop-smart.png"
+      },
+      "value": "Biceps Curls With Barbell"
+    },
+    {
+      "data": {
+        "category": "Arms",
+        "image": "https://wger.de/media/exercise-images/81/Biceps-curl-1.png",
+        "name": "Biceps Curls With Dumbbell",
+        "id": 81,
+        "image_thumbnail": "https://wger.de/media/exercise-images/81/Biceps-curl-1.png.30x30_q85_crop-smart.png"
+      },
+      "value": "Biceps Curls With Dumbbell"
+    },
+    {
+      "data": {
+        "category": "Arms",
+        "image": null,
+        "name": "Biceps Curls With SZ-bar",
+        "id": 80,
+        "image_thumbnail": null
+      },
+      "value": "Biceps Curls With SZ-bar"
+    },
+    {
+      "data": {
+        "category": "Arms",
+        "image": "https://wger.de/media/exercise-images/129/Standing-biceps-curl-1.png",
+        "name": "Biceps Curl With Cable",
+        "id": 129,
+        "image_thumbnail": "https://wger.de/media/exercise-images/129/Standing-biceps-curl-1.png.30x30_q85_crop-smart.png"
+      },
+      "value": "Biceps Curl With Cable"
+    },
+    {
+      "data": {
+        "category": "Arms",
+        "image": null,
+        "name": "Dumbbell Concentration Curl",
+        "id": 275,
+        "image_thumbnail": null
+      },
+      "value": "Dumbbell Concentration Curl"
+    },
+    {
+      "data": {
+        "category": "Arms",
+        "image": null,
+        "name": "Dumbbell Incline Curl",
+        "id": 298,
+        "image_thumbnail": null
+      },
+      "value": "Dumbbell Incline Curl"
+    },
+    {
+      "data": {
+        "category": "Arms",
+        "image": "https://wger.de/media/exercise-images/86/Bicep-hammer-curl-1.png",
+        "name": "Hammercurls",
+        "id": 86,
+        "image_thumbnail": "https://wger.de/media/exercise-images/86/Bicep-hammer-curl-1.png.30x30_q85_crop-smart.png"
+      },
+      "value": "Hammercurls"
+    },
+    {
+      "data": {
+        "category": "Arms",
+        "image": "https://wger.de/media/exercise-images/138/Hammer-curls-with-rope-1.png",
+        "name": "Hammercurls on Cable",
+        "id": 138,
+        "image_thumbnail": "https://wger.de/media/exercise-images/138/Hammer-curls-with-rope-1.png.30x30_q85_crop-smart.png"
+      },
+      "value": "Hammercurls on Cable"
+    },
+    {
+      "data": {
+        "category": "Arms",
+        "image": "https://wger.de/media/exercise-images/193/Preacher-curl-3-1.png",
+        "name": "Preacher Curls",
+        "id": 193,
+        "image_thumbnail": "https://wger.de/media/exercise-images/193/Preacher-curl-3-1.png.30x30_q85_crop-smart.png"
+      },
+      "value": "Preacher Curls"
+    },
+    {
+      "data": {
+        "category": "Arms",
+        "image": null,
+        "name": "Reverse Bar Curl",
+        "id": 208,
+        "image_thumbnail": null
+      },
+      "value": "Reverse Bar Curl"
+    },
+    {
+      "data": {
+        "category": "Arms",
+        "image": null,
+        "name": "Single-arm Preacher Curl",
+        "id": 205,
+        "image_thumbnail": null
+      },
+      "value": "Single-arm Preacher Curl"
+    },
+    {
+      "data": {
+        "category": "Arms",
+        "image": null,
+        "name": "Z Curls",
+        "id": 305,
+        "image_thumbnail": null
+      },
+      "value": "Z Curls"
+    },
+    {
+      "data": {
+        "category": "Legs",
+        "image": "https://wger.de/media/exercise-images/154/lying-leg-curl-machine-large-1.png",
+        "name": "Leg Curls (laying)",
+        "id": 154,
+        "image_thumbnail": "https://wger.de/media/exercise-images/154/lying-leg-curl-machine-large-1.png.30x30_q85_crop-smart.jpg"
+      },
+      "value": "Leg Curls (laying)"
+    },
+    {
+      "data": {
+        "category": "Legs",
+        "image": "https://wger.de/media/exercise-images/117/seated-leg-curl-large-1.png",
+        "name": "Leg Curls (sitting)",
+        "id": 117,
+        "image_thumbnail": "https://wger.de/media/exercise-images/117/seated-leg-curl-large-1.png.30x30_q85_crop-smart.jpg"
+      },
+      "value": "Leg Curls (sitting)"
+    },
+    {
+      "data": {
+        "category": "Legs",
+        "image": "https://wger.de/media/exercise-images/118/standing-leg-curls-large-1.png",
+        "name": "Leg Curls (standing)",
+        "id": 118,
+        "image_thumbnail": "https://wger.de/media/exercise-images/118/standing-leg-curls-large-1.png.30x30_q85_crop-smart.jpg"
+      },
+      "value": "Leg Curls (standing)"
+    }
+  ]
+}

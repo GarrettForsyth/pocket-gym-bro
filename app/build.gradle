@@ -1,27 +1,51 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-allopen'
+
+allOpen {
+    annotation 'com.example.android.pocketgymbro.testing.OpenClass'
+}
 
 android {
     compileSdkVersion build_versions.target_sdk
+
+    dataBinding {
+        enabled true
+    }
+
     defaultConfig {
         applicationId "com.example.android.pocketgymbro"
         minSdkVersion build_versions.min_sdk
         targetSdkVersion build_versions.target_sdk
         versionCode 1
         versionName "1.0"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+
+        testInstrumentationRunner "com.example.android.pocketgymbro.cucumber.CucumberRunner"
     }
+
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+
+    packagingOptions {
+        pickFirst 'cucumber/formatter/style.css'
+    }
+
+    testOptions {
+        unitTests.returnDefaultValues = true
+    }
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation deps.kotlin.stdlib
 
     // Support library
     implementation deps.support.app_compat
@@ -29,16 +53,45 @@ dependencies {
     implementation deps.support.recyclerview
     implementation deps.support.design
 
+    // lifecycle dependencies
+    implementation deps.lifecycle.runtime
+    implementation deps.lifecycle.extensions
+
+    // Room
+    implementation deps.room.runtime
+
+    // Retrofit
+    implementation deps.retrofit.runtime
+    implementation deps.retrofit.gson
+    implementation deps.okhttp_logging_interceptor
+
+    // Glide
+    implementation deps.glide.runtime
+
+    // Dagger
+    implementation deps.dagger.runtime
+    implementation deps.dagger.android
+    implementation deps.dagger.android_support
+
+    kapt deps.dagger.compiler
+    kapt deps.dagger.android_support_compiler
+    kapt deps.room.compiler
+    kapt deps.glide.compiler
+
+    // Helper test functions for fragments
+    debugImplementation deps.fragment_test
+
     // Unit test dependencies
     testImplementation deps.junit
     testImplementation deps.mock_web_server
     testImplementation deps.arch_core.testing
     testImplementation deps.mockito.core
+    testImplementation deps.retrofit.mock
 
     // Instrumentation test dependencies
     androidTestImplementation deps.atsl.runner
     androidTestImplementation deps.atsl.rules
-
+    androidTestImplementation deps.support.test
     androidTestImplementation deps.support.app_compat
     androidTestImplementation deps.support.recyclerview
     androidTestImplementation deps.support.constraint_layout
@@ -48,9 +101,22 @@ dependencies {
     androidTestImplementation deps.espresso.contrib
 
     androidTestImplementation deps.arch_core.testing
+    androidTestImplementation deps.room.testing
     androidTestImplementation deps.mockito.core
     androidTestImplementation deps.mockito.android
+    androidTestImplementation deps.retrofit.mock
+    androidTestImplementation deps.okhttp3_idling_resource
+
+    androidTestImplementation deps.cucumber
+    androidTestImplementation deps.picocontainer
+
+    kaptAndroidTest deps.dagger.compiler
+    kaptAndroidTest deps.dagger.android_support_compiler
+
+    debugImplementation deps.retrofit.mock
+
 }
 repositories {
     mavenCentral()
+    google()
 }

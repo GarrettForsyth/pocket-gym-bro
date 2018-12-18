@@ -1,0 +1,24 @@
+{
+  "id": 88,
+  "license_author": "wger.de",
+  "status": "2",
+  "description": "<p>Lay down on a bench, the bar is directly over your eyes, the knees form a slight angle and the feet are firmly on the ground. Hold the bar with a narrow grip (around 20cm.). Lead the weight slowly down till the arms are parallel to the floor (elbow: right angle), press then the bar up. When bringing the bar down, don't let it down on your nipples as with the regular bench pressing, but somewhat lower.</p>",
+  "name": "Bench Press Narrow Grip",
+  "name_original": "Bench press narrow grip",
+  "creation_date": null,
+  "uuid": "03d821e7-e1ac-4026-903b-d406381cbf76",
+  "license": 1,
+  "category": 8,
+  "language": 2,
+  "muscles": [
+    5
+  ],
+  "muscles_secondary": [
+    2,
+    4
+  ],
+  "equipment": [
+    1,
+    8
+  ]
+}
